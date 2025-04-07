@@ -20,8 +20,8 @@ public class StatisticsServiceTest {
     void findMaxIFlastPosition() {
         StatisticsService service = new StatisticsService();
 
-        long[] incomesInBillions = {1, 5, 8, 4, 5, 3, 8, 6, 11, 11, 13};
-        long expected = 13;
+        long[] incomesInBillions = {1, 5, 8, 4, 5, 3, 8, 6, 11, 11, 15};
+        long expected = 15;
 
         long actual = service.findMax(incomesInBillions);
 
